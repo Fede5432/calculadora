@@ -35,5 +35,3 @@ def ingreso_datos():
     operador = input("Ingrese el operador: ")
 
     return calculadora(num1, num2, operador)
-    
-ingreso_datos()
