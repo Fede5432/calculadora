@@ -1,13 +1,9 @@
 def calculadora(num1, num2, operador):
-
     if num1.isdigit() and num2.isdigit():    
-
         if num2 == "0" and operador == "/":
             print("No se puede dividir por 0")
             return ingreso_datos()
-
         else:
-
             if operador == "+": texto1 = "El resultado de la suma de {} y {} es = {}"
             elif operador == "-": texto1 = "El resultado de la resta de {} y {} es = {}"
             elif operador == "*": texto1 = "El resultado de la multiplicación de {} y {} es = {}"
@@ -31,7 +27,6 @@ def calculadora(num1, num2, operador):
         return print("Los dos datos ingresados necesitan ser si o si un numero")
     
 def ingreso_datos():
-
     global num1, num2, operador
 
     num1 = input("Ingrese el primer número: ")
