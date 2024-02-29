@@ -1,5 +1,5 @@
 def calculadora(num1, num2, operador):
-    if num1.isdigit() and num2.isdigit():    
+    if num1.isnumeric() and num2.isnumeric():    
         if num2 == "0" and operador == "/":
             print("No se puede dividir por 0")
             return ingreso_datos()
